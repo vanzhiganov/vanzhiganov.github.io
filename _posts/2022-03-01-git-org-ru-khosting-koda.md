@@ -15,3 +15,5 @@ tags: [git, хостинг, git.org.ru]
 репозиториями Gitea.
 
 Ссылка на проект: https://git.org.ru
+
+![Скриншот git.org.ru](/assets/posts/2022/2022-03-01-1-git.org.ru-screenshot.png)
