@@ -70,6 +70,9 @@ theme_settings:
   # Post navigation
   post_navigation: false
 
+  # Sort pages in the header navigation by their `order` front matter
+  site_navigation_sort: "order"
+
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"

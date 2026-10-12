@@ -8,30 +8,30 @@ $padding-large: 20% !default;
 $padding-small: 5% !default;
 $padding-x-small: 3% !default;
 
-// Brand colours
-$brand-color: #fff !default;
-$background-color: #fff !default;
-$border-color: rgba(0, 0, 0, 0.1) !default; // rgba recommended if using feature images
+// Brand colours (dark theme)
+$brand-color: #1b1f23 !default; // site header background
+$background-color: #121417 !default; // page background
+$border-color: rgba(255, 255, 255, 0.1) !default; // rgba recommended if using feature images
 
 // Typography colours
-$text-color: #383838 !default;
-$link-color: #1ABC9C !default;
-$selection-color: #D4D4D4 !default; // visible when highlighting text
+$text-color: #e6e6e6 !default;
+$link-color: #2ee6c4 !default;
+$selection-color: #3a4046 !default; // visible when highlighting text
 
 // Tags color
-$tags-color: #b0b0b0 !default;
+$tags-color: #9aa0a6 !default;
 
 //Search color
-$search-color: #999 !default;
+$search-color: #9aa0a6 !default;
 
 // Header colours
-$header-link-color: #383838 !default;
+$header-link-color: #e6e6e6 !default;
 
 // Feature image for articles
 $feature-image-text-color: #fff !default;
 $feature-image-size: cover !default; // options include "cover", "contain", "auto"
 
 // Header description box
-$header-desc-background-color: #1ABC9C !default;
+$header-desc-background-color: #16a085 !default;
 $header-desc-text-color: #FFF !default;
 $header-desc-link-color: #02453D !default;

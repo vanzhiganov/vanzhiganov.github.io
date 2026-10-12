@@ -22,6 +22,12 @@ The site is served at <http://localhost:4000>.
   with `layout: post` front matter to publish).
 - `_config.yml` &ndash; site and theme settings (title, social icons, analytics, etc.).
 
+## Styling
+
+The site uses a **dark colour palette** defined in `_sass/base/_variables.scss`
+(background, text, link and border colours). Code highlighting lives in
+`_sass/external/_syntax.scss`, and site-specific styles are in `_sass/_custom.scss`.
+
 ## Custom domain
 
 The custom domain (`anzhiganov.com`) is stored as `CNAME.bak`. Rename it to
