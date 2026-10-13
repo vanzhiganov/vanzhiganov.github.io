@@ -24,15 +24,15 @@ theme_settings:
   rss: true
   email_address: "vanzhiganov@outlook.com"
   behance:
-  bitbucket:
+  bitbucket: "vanzhiganov"
   dribbble:
   facebook:
   flickr:
-  gitlab:
+  gitlab: "vanzhiganov"
   github: "vanzhiganov"
   gitter:
   google_plus:
-  instagram:
+  instagram: "vanzhiganov"
   linkedin:  # Full URL
   pinterest:
   reddit:
@@ -45,7 +45,7 @@ theme_settings:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: G-K30FWS29BC
   yandex_metrika: 27143651 # Yandex.Metrika counter ID
   disqus_shortname:
   katex: false # Enable if using math markup
