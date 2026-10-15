@@ -17,3 +17,13 @@ OpenStack — это бесплатная программная платфор�
 веб-панель управления, инструменты командной строки или RESTful API.
 
 
+## Интересные ссылки
+
+**skydive** - Анализатор сетевой топологии и протоколов в реальном времени с
+открытым исходным кодом.
+- [github.com/skydive-project/skydive](https://github.com/skydive-project/skydive)
+- [skydive.network](https://skydive.network)
+
+**OpenStack on FreeBSD** - Использование OpenStack на FreeBSD: настройка, поддержка и рекомендации по запуску платформы в среде FreeBSD.
+
+- [freebsdfoundation.org](https://freebsdfoundation.org/project/openstack-on-freebsd/)
