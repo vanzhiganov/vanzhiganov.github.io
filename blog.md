@@ -2,6 +2,6 @@
 layout: redirect
 title: Blog
 permalink: /blog/
-hide: true
+hide: false
 redirect_to: /
 ---
