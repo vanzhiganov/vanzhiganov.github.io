@@ -8,17 +8,17 @@ url: "https://vanzhiganov.github.io"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: vyacheslav anzhiganov
+  title: Viacheslav Anzhiganov
   avatar:
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "vyacheslav anzhiganov - contacts and projects" # used by search engines
+  description: "Viacheslav Anzhiganov - contacts and projects" # used by search engines
 
   # Header and footer text
   header_text:
   header_text_feature_image:
   footer_text: >
-    &copy; vyacheslav anzhiganov
+    &copy; Viacheslav Anzhiganov
 
   # Icons
   rss: true
@@ -83,7 +83,7 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-diagrams]
 exclude:
   - Gemfile
   - Gemfile.lock
