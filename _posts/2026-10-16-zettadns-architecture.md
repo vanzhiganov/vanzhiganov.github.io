@@ -16,6 +16,7 @@ flowchart TD
         WebUI[WebUI]
         DB[(PostgreSQL)]
         Cache[(Redis)]
+        Prometheus[(Prometheus)]
     end
     subgraph Data [Data plane]
         Agent[Agent]
@@ -24,14 +25,14 @@ flowchart TD
     Browser[Браузер]
     Clients[DNS-клиенты]
     Prometheus[Prometheus]
-    Browser --> WebUI
-    WebUI --> DB
-    WebUI --> Cache
+    Browser <--> WebUI
+    WebUI <--> DB
+    WebUI <--> Cache
     WebUI <-->|REST API| Agent
     Agent -->|конфигурация зон| Bind9
-    Clients -->|DNS-запросы| Bind9
-    Prometheus -.->|метрики| Bind9
-    Prometheus -.->|метрики| Agent
+    Bind9 -.->|метрики| Prometheus
+    Agent -.->|метрики| Prometheus
+    Clients <-->|DNS-запросы| Bind9
 ```
 
 ## Компоненты

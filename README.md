@@ -22,6 +22,34 @@ The site is served at <http://localhost:4000>.
   with `layout: post` front matter to publish).
 - `_config.yml` &ndash; site and theme settings (title, social icons, analytics, etc.).
 
+## Diagrams
+
+Posts can embed [Mermaid](https://mermaid.js.org/) block diagrams. Add
+`diagrams: true` to the front matter and use a fenced code block:
+
+~~~markdown
+---
+layout: post
+title: "Architecture"
+diagrams: true
+---
+
+```mermaid
+flowchart TD
+    WebUI --> Agent
+    Agent --> Bind9
+```
+~~~
+
+Mermaid is loaded from a CDN and rendered in the browser, and only on pages
+that opt in, so diagram-free pages stay lightweight. Raw
+`<div class="mermaid">…</div>` blocks work as well.
+
+Note: the `jekyll-diagrams` entry in `_config.yml` is inert here. That plugin
+renders at build time with external tools, and GitHub Pages only runs
+whitelisted plugins, so it is skipped in production (and would be unavailable
+locally too). Diagram rendering is done client-side instead.
+
 ## Styling
 
 The site uses a **dark colour palette** defined in `_sass/base/_variables.scss`
