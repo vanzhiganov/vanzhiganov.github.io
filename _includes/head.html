@@ -38,6 +38,44 @@
 		crossorigin="anonymous"></script>
 	{% endif %}
 
+	<!-- Mermaid diagrams: set `diagrams: true` in page front matter -->
+	{% if page.diagrams %}
+	<style>
+		.mermaid {
+			overflow-x: auto;
+			text-align: center;
+		}
+
+		.mermaid svg {
+			max-width: 100%;
+			height: auto;
+		}
+	</style>
+	<script defer src="https://cdn.jsdelivr.net/npm/mermaid@11.17.2/dist/mermaid.min.js"
+		integrity="sha384-EOXBFmc3gx5mb+vn0vPvvGqACToJD24hhacX5Yx+8NUUQrHIle/Qi5Bg9o3zKwW2"
+		crossorigin="anonymous"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			mermaid.initialize({ startOnLoad: false });
+			// kramdown/rouge renders fenced ```mermaid blocks as code, so turn them
+			// into elements mermaid understands, then render every diagram on the page.
+			document.querySelectorAll("code.language-mermaid, div.language-mermaid code").forEach(function (code) {
+				var wrapper = code.closest(".highlighter-rouge") ||
+					code.closest("div.language-mermaid") ||
+					code.closest("pre") ||
+					code;
+				var block = document.createElement("div");
+				block.className = "mermaid";
+				block.textContent = code.textContent;
+				wrapper.replaceWith(block);
+			});
+			if (document.querySelector(".mermaid")) {
+				mermaid.run({ querySelector: ".mermaid" });
+			}
+		});
+	</script>
+	{% endif %}
+
 	<!-- Google Analytics -->
 	{% if site.theme_settings.google_analytics %}
 	<script>
