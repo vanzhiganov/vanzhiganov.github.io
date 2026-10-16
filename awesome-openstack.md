@@ -24,6 +24,6 @@ OpenStack — это бесплатная программная платфор�
 - [github.com/skydive-project/skydive](https://github.com/skydive-project/skydive)
 - [skydive.network](https://skydive.network)
 
-**OpenStack on FreeBSD** - Использование OpenStack на FreeBSD: настройка, поддержка и рекомендации по запуску платформы в среде FreeBSD.
-
+**OpenStack on FreeBSD** - Проект развития OpenStack на FreeBSD
+- [github.com/openstack-on-freebsd](https://github.com/openstack-on-freebsd)
 - [freebsdfoundation.org](https://freebsdfoundation.org/project/openstack-on-freebsd/)
