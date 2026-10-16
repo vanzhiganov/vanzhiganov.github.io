@@ -12,7 +12,7 @@ theme_settings:
   avatar:
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "Viacheslav Anzhiganov - contacts and projects" # used by search engines
+  description: "Viacheslav Anzhiganov - blog, contacts and projects" # used by search engines
 
   # Header and footer text
   header_text:
@@ -68,14 +68,14 @@ theme_settings:
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
   # Post navigation
-  post_navigation: false
+  post_navigation: true
 
   # Sort pages in the header navigation by their `order` front matter
   site_navigation_sort: "order"
 
 # PAGINATION
 paginate: 5
-paginate_path: "blog/page:num"
+paginate_path: "/page:num/"
 
 # BUILD SETTINGS
 markdown: kramdown

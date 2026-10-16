@@ -1,6 +1,7 @@
 ---
-layout: blog
+layout: redirect
 title: Blog
 permalink: /blog/
-order: 1
+hide: true
+redirect_to: /
 ---

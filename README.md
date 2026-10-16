@@ -16,8 +16,11 @@ The site is served at <http://localhost:4000>.
 
 ## Content
 
-- `index.html` &ndash; home page with contacts and projects.
-- `web_start.html` &ndash; notes on optimizing a website before launch.
+- `index.html` &ndash; home page with the blog listing (`layout: home`). Posts are
+  paginated 5 per page; older pages live at `/page2/`, `/page3/`, ... (see
+  `paginate` / `paginate_path` in `_config.yml`).
+- `contacts.html` &ndash; contacts and tweets (hidden from the navigation).
+- `blog.md` &ndash; legacy `/blog/` URL; redirects to the home page.
 - `_posts/` &ndash; blog posts (drop a Markdown file named `YYYY-MM-DD-title.md`
   with `layout: post` front matter to publish).
 - `_config.yml` &ndash; site and theme settings (title, social icons, analytics, etc.).
