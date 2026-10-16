@@ -2,7 +2,7 @@
 layout: page
 title: Awesome OpenStack
 feature-title: Список ссылок на материалы для изучения OpenStack
-permalink: /awesome-openstack.html
+permalink: /openstack.html
 order: 3
 ---
 
