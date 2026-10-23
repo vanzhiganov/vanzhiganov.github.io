@@ -6,5 +6,6 @@ permalink: /ai.html
 order: 3
 ---
 
-[CPU-only AI: запуск нейросетей без GPU набирает обороты](https://www.ai-stat.ru/news/2026-02-08-cpu-only-ai-no-gpu) - Сообщество LocalLLaMA обсуждает запуск LLM на обычных процессорах. В статье
-разбирают инструменты, модели и реальные бенчмарки для AI без видеокарты.
+[CPU-only AI: запуск нейросетей без GPU набирает обороты](https://www.ai-stat.ru/news/2026-02-08-cpu-only-ai-no-gpu) - Сообщество LocalLLaMA обсуждает запуск LLM на обычных процессорах. В статье разбирают инструменты, модели и реальные бенчмарки для AI без видеокарты.
+
+[Introducing AI Agent Platform: Schedule and Chain Any AI Agent on Windows](https://rodtrent.substack.com/p/introducing-ai-agent-platform-schedule) - Платформа AI Agent Platform - это автономное настольное приложение для Windows 11, которое позволяет создавать, планировать и отслеживать работу агентов искусственного интеллекта с любым крупным поставщиком услуг LLM - при этом вам не нужно ничего устанавливать, кроме самого приложения.
