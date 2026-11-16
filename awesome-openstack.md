@@ -3,7 +3,7 @@ layout: page
 title: Awesome OpenStack
 feature-title: Список ссылок на материалы для изучения OpenStack
 permalink: /openstack.html
-order: 4
+order: 5
 ---
 
 ## Что такое OpenStack?
